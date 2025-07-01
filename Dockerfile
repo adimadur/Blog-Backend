@@ -26,6 +26,7 @@ RUN apt-get update \
         libfribidi-dev \
         libxcb1-dev \
         pkg-config \
+        curl \
     && rm -rf /var/lib/apt/lists/*
 
 # Install Python dependencies
